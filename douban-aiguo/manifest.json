@@ -1,0 +1,9 @@
+{
+  "name": "豆瓣无节操精分定制版",
+  "version": "0.1",
+  "description": "Made by Redswallow",
+  "content_scripts":[
+  {"matches":["http://*.douban.com/*"],"js":["aiguo.js"]}
+  ]
+}
+
