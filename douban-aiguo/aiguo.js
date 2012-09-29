@@ -25,10 +25,43 @@ function main($) {
 		$('.like').text("爱过");
 		$('.btn-action-reply').text("來一發");
 	}
+
+	function hover(){
+		$('.obu').hover(
+				function () {
+					$(this).append($("<span>**</span>"));
+				}, 
+				function () {
+					$(this).find("span:last").remove();
+				}
+
+			       )
+	}
+
+	function pic_hover(){
+		$('.attachments > .media >img').hover(function() {
+			$(this).css({
+				width: function(index, value) {
+					       return parseFloat(value) * 1.2;
+				}, 
+				height: function(index, value) {
+					return parseFloat(value) * 1.2;
+				}
+
+			});
+		});
+	}
+
+	function read_by_cate(){
+		$('.status-item').filter(function (index){return $(this).attr("data-object-kind") != "1002";}).css("display","none")
+	}
+
 	'use strict';
 	jQuery.noConflict();
 	loved();
 	delete_ad();
+	//hover();
+	//pic_click()
 }
 
 !
