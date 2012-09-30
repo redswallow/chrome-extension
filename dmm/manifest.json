@@ -1,0 +1,9 @@
+{
+  "name": "dmm",
+  "version": "0.1",
+  "description": "Made by Redswallow",
+  "content_scripts":[
+  {"matches":["http://*.dmm.co.jp/*"],"js":["dmm.js"]}
+  ]
+}
+
