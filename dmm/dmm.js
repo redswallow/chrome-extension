@@ -7,7 +7,9 @@
 function main($) {
 	'use strict';
 	jQuery.noConflict();
-	$('.tdmm').replaceWith("<img src='"+$('.pd-3>a').attr("href")+"' />")
+	if($('.pd-3>a').length){
+		$('.tdmm').replaceWith("<img src='"+$('.pd-3>a').attr("href")+"' />")
+	}
 }
 
 !
