@@ -1,6 +1,7 @@
 # 豆瓣旧版Chrome插件 - by redswallow
 
-## 版本: 0.1
+## 版本: 
+### 0.1
 ## 安装:
 
 * 地址1: https://github.com/redswallow/chrome-extension/blob/master/douban-oldversion.crx?raw=true
