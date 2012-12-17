@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "douban.png",
+      "default_popup": "popup.html",
+      "default_title": "Douban Old Version"
+   },
+   "description": "回到豆瓣旧版 by redswallow",
+   "icons": {
+      "128": "douban.png",
+      "16": "douban.png",
+      "48": "douban.png"
+   },
+   "manifest_version": 2,
+   "name": "豆瓣旧版",
+   "permissions": [ "tabs", "storage", "http://douban.com/*", "http://*.douban.com/*" ],
+   "version": "0.1",
+   "web_accessible_resources": [ "old-douban.css" ]
+}
