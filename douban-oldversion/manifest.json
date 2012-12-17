@@ -10,14 +10,14 @@
    },
    "description": "回到豆瓣旧版 by redswallow",
    "icons": {
-      "128": "douban.png",
+      "128": "douban128.png",
       "16": "douban.png",
       "48": "douban.png"
    },
    "manifest_version": 2,
    "name": "豆瓣旧版",
    "permissions": [ "tabs", "storage", "http://douban.com/*", "http://*.douban.com/*" ],
-   "version": "0.3.1",
-   "update_url": "https://github.com/redswallow/chrome-extension/blob/master/douban-oldversion/updates.xml",
+   "version": "0.3.3",
+   "update_url": "https://raw.github.com/redswallow/chrome-extension/master/douban-oldversion/updates.xml",
    "web_accessible_resources": [ "old-douban.css" ]
 }
