@@ -17,7 +17,7 @@
    "manifest_version": 2,
    "name": "豆瓣旧版",
    "permissions": [ "tabs", "storage", "http://douban.com/*", "http://*.douban.com/*" ],
-   "version": "0.3",
+   "version": "0.3.1",
    "update_url": "https://github.com/redswallow/chrome-extension/blob/master/douban-oldversion/updates.xml",
    "web_accessible_resources": [ "old-douban.css" ]
 }

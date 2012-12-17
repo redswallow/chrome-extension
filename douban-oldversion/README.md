@@ -4,7 +4,7 @@
 ### 0.3
 ## 安装:
 
-* 地址: https://github.com/redswallow/chrome-extension/blob/master/douban-oldversion.crx?raw=true
+* 地址: https://raw.github.com/redswallow/chrome-extension/master/douban-oldversion.crx
 * 得到crx文件后，进入浏览器插件管理 chrome://chrome/extensions/
 * 将crx拖入安装
 
