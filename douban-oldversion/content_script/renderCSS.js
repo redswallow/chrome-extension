@@ -4,7 +4,7 @@ var loadOldDouban = function() {
   var el = document.createElement("link");
   el.id = "old_douban";
   el.rel = "stylesheet";
-  el.href = chrome.extension.getURL("old-douban.css");
+  el.href = chrome.extension.getURL("../stylesheet/old-douban.css");
   headEl = document.getElementsByTagName("head")[0];
   headEl.appendChild(el);
 };

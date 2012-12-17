@@ -1,6 +1,6 @@
 var updateTab = function(tab) {
   if (!/http(.+)douban\.com/.test(tab.url)) return;
-  file = localStorage.dbCSS === "true" ? "renderCSS.js" : "removeCSS.js";
+  file = localStorage.dbCSS === "true" ? "./content_script/renderCSS.js" : "./content_script/removeCSS.js";
   chrome.tabs.executeScript(tab.id, {
     file : file,
     runAt: "document_start"

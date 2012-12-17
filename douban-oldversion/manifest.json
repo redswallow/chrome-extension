@@ -1,23 +1,23 @@
 {
    "background": {
       "persistent": true,
-      "scripts": [ "bg.js" ]
+      "scripts": [ "background/bg.js" ]
    },
    "browser_action": {
-      "default_icon": "douban.png",
-      "default_popup": "popup.html",
+      "default_icon": "images/douban.png",
+      "default_popup": "popup/popup.html",
       "default_title": "Douban Old Version"
    },
    "description": "回到豆瓣旧版 by redswallow",
    "icons": {
-      "128": "douban128.png",
-      "16": "douban.png",
-      "48": "douban.png"
+      "128": "images/douban128.png",
+      "16": "images/douban.png",
+      "48": "images/douban.png"
    },
    "manifest_version": 2,
    "name": "豆瓣旧版",
    "permissions": [ "tabs", "storage", "http://douban.com/*", "http://*.douban.com/*" ],
-   "version": "0.3.3",
+   "version": "0.4",
    "update_url": "https://raw.github.com/redswallow/chrome-extension/master/douban-oldversion/updates.xml",
-   "web_accessible_resources": [ "old-douban.css" ]
+   "web_accessible_resources": [ "stylesheet/old-douban.css" ]
 }
