@@ -1,0 +1,11 @@
+{
+  "name": "豆列加强",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Made by Redswallow",
+  "content_scripts":[{
+	  "matches":["http://*.douban.com/doulist/*"],
+	  "js":["content_script/jquery.min.js","content_script/doulist.js"]
+	  }]
+}
+
