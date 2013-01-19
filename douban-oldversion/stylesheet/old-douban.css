@@ -3,10 +3,6 @@
 }
 
 .global-nav {
-	min-width: 768px;
-	height: 28px;
-	padding: 0 30px 0 15px;
-	color: #D5D5D5;
 	background-color: #fff!important;
 }
 .global-nav a:active,.global-nav a:link, .global-nav a:visited {
@@ -17,9 +13,7 @@
 	background: #219A44!important;
 }
 #db-nav-sns .nav-logo {
-	width: 184px;
 	height: 50px!important;
-	background-position: 0 10px;
 }
 #db-nav-sns .nav-primary {
 	padding-top: 0px!important;
