@@ -1,9 +1,11 @@
 {
   "name": "dmm",
   "version": "0.1",
+  "manifest_version": 2,
   "description": "Made by Redswallow",
-  "content_scripts":[
-  {"matches":["http://*.dmm.co.jp/*"],"js":["dmm.js"]}
-  ]
+  "content_scripts":[{
+	  "matches":["http://*.dmm.co.jp/*"],
+	  "js":["jquery-1.8.3.min.js","dmm.js"]
+	  }]
 }
 
